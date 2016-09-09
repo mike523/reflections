@@ -14,4 +14,12 @@ What are some situations when branches would be helpful in keeping your history 
     work on a new feature in a separate feature branch 
     Merge it to master once it reaches production quality.
 
-    
+ 
+ How do the diagrams help you visualize the branch structure?
+     You can see the branches and at which point in time the branches have been created which commits are included
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+     all commits in both branches are merged together
+     the graphical representation helps to understand what needs to be merged
+     
+ 
