@@ -13,7 +13,9 @@ Q2: Why might you want to always pull changes manually rather than having Git
 Q3: Describe the differences between forks, clones, and branches.  When would you
     use one instead of another?
 
-    Fill in your answer here
+    Forks: I will use them mainly because I cannot directly commit to a repository on GitHub that is not my own. I will push my changes to the fork and the owner will then decide if the takes over my changes.
+    Clones: I will use a clone for making a offline copy of a repository or if I want to take a look at someone elses code.
+    Branch: I will use a branch if I e.g. want to develop a new feature or if I have to swith between my development of a new feature and and important bugfix (which I will keep in separate branches)
 
 Q4: What is the benefit of having a copy of the last known state of the remote
     stored locally?
