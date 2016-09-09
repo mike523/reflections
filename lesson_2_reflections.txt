@@ -22,4 +22,9 @@ What is the result of merging two branches together? Why do we represent it in t
      all commits in both branches are merged together
      the graphical representation helps to understand what needs to be merged
      
- 
+ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+     git only shows confilicts when the same piece of code is changed by two people at the same time.
+     completely automatic merging would require a huge rule based system which in turn would also produce errors.
+     manually merginc conflicts is a good tradeoff.
+
+     
