@@ -1,47 +1,6 @@
-How did viewing a diff between two versions of a file help you see the bug that
-was introduced?
-
-    I only needed to look at the differences and did not have to compare all lines
-
-How could having easy access to the entire history of a file make you a more
-efficient programmer in the long term?
-
-    I will not have to manually keep old version copies
-    I will easily be able to restore old versions (any point in time)
-    easy comparison of arbitrary versions against each other
-
-
-What do you think are the pros and cons of manually choosing when to create a
-commit, like you do in Git, vs having versions automatically saved, like Google
-docs does?
-
-	manual: You can control the point in time where you have a working version / completed feature / fixed bug 
-
-    With autosaving there might be incomplete / inconsistent versions or versions that do not even compile
-
-Why do you think some version control systems, like Git, allow saving multiple
-files in one commit, while others, like Google Docs, treat each file separately?
-
-    it allows you to show changes to multiple files that are related to each other
-    e.g. renaming a method in class which is used by multiple classes
-
-    Systems that mainly work with one file (Google Docs, Photoshop Image) can also get a long with the easier approach.
-
-How can you use the commands git log and git diff to view the history of files?
-
-    git log
-    wil show the history of all commits 
-    each commit is identfied by and ID, contains author, the commit date/time and a commit message, e.g. 'Revert Controls'
-
-    git diff commit-id-1   commit-id-2
-    will show all differences in all files between the 2 points in time (given by commit-id-1 and commit-id-2)
-
-How might using version control make you more confident to make changes that
-could break something?
-
-    I can reset my changes any time to the last working version
-
-Now that you have your workspace set up, what do you want to try using Git for?
-
-    I want to use git for versioning my source code in all my projects
+How can you use the staging area to make sure you have one commit per logical change?
+    I can add all those files that need to be part of one commit to the staging area 
+    and then commit only those changes
+    Afterwards I can add all changes that need to be part of the next commit to the staging area and then commit only those changes
+    and so on
     
