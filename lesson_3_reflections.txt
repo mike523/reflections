@@ -38,4 +38,17 @@ Q5: How would you collaborate without using Git or GitHub?  What would be easier
 Q6: When would you want to make changes in a separate branch rather than directly in
     master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I will use a separate branch for larger set of changes when I expect multiple changes that I want to commit each by its own but only want
+    to integrate the new functionality into master once I finished my work and I finished my tests.
+    I can also use different branches when I want to isolate work (e.g. DEV, TEST, PROD branches)
+
+    separate branch:
+       + better isolation, I will not have to interrupt my work when others as well commit to master
+       + does not clutter history in case of many commits
+       - probably more work to integrate changes 
+       
+    master: (small changes)
+       + easier to integrate my changes 
+       - committing lots of small changes to master will clutter history
+       - no isolation from the work of others that also commit to master
+
