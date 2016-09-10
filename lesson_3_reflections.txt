@@ -20,7 +20,8 @@ Q3: Describe the differences between forks, clones, and branches.  When would yo
 Q4: What is the benefit of having a copy of the last known state of the remote
     stored locally?
 
-    Fill in your answer here
+    It gives me the possibility to continue work offline.
+    It gives me to compare which changes have been made to the remote repository since I was performing my last pull.
 
 Q5: How would you collaborate without using Git or GitHub?  What would be easier,
     and what would be harder?
