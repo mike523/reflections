@@ -26,7 +26,14 @@ Q4: What is the benefit of having a copy of the last known state of the remote
 Q5: How would you collaborate without using Git or GitHub?  What would be easier,
     and what would be harder?
 
-    Fill in your answer here
+    Using Git/GitHub for collaboration makes work much easier.
+    There is no need to send files for review to anyone and to get files back from others and update the codebase accordingly.
+    Using Git I will be able to have a history of all changes, and will also know who performed the changes and the intention of the changes (commit message)
+    Also I can work with multiple copies at the same time which makes "simultaneous" bugfixing and new feature development easier.
+    When sharing the code with others everyone also has the complete history, because everyone is looking at the same repository and you do not get lost 
+    if you receive changes from multiple persons.
+
+    Git is really useful. I cannot think of anything that would be easier without git. As always you have to first learn something new and once you learned it it will be extremely useful.
 
 Q6: When would you want to make changes in a separate branch rather than directly in
     master?  What benefits does each approach have?
